@@ -1,11 +1,11 @@
 {
   "name": "moja-pty",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Mountains-and-rivers",
   "description": "install node-pty according to processor architecture",
   "main": "index.js",
   "scripts": {
-    "preinstall": "bash scripts/preinstall.sh",
+    "postinstall": "bash scripts/postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
