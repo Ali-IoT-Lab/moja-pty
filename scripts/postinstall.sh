@@ -8,7 +8,7 @@ isArm=$( echo $cpuType | grep "arm" )
 isArmV8=$( echo $cpuType | grep "aarch" )
 
 if [ -n "${isX86}" ] ; then
-  npm install node-pty-prebuilt
+  npm install node-pty
 elif [  -n "${isArm}" ] ;then
   npm install node-pty-prebuilt
 elif [  -n "${isArmV8}" ] ;then
