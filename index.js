@@ -5,6 +5,6 @@ var mojaPty = function () {
 };
 
 module.exports = {
-  "moja_pty" : mojaPty
+  "moja_pty" : mojaPty()
 };
 
