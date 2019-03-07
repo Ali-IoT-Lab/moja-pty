@@ -8,11 +8,11 @@ isArm=$( echo $cpuType | grep "arm" )
 isArmV8=$( echo $cpuType | grep "aarch" )
 
 if [ -n "${isX86}" ] ; then
-  npm install node-pty
+  npm install node-pty-prebuilt@latest
 elif [  -n "${isArm}" ] ;then
-  npm install node-pty-prebuilt
+  npm install node-pty-prebuilt@latest
 elif [  -n "${isArmV8}" ] ;then
-  npm install node-pty
+  npm install node-pty@latest
 else
   echo "--------------------------------------不支持的系统类型---------------------------------------"
   exit 1
