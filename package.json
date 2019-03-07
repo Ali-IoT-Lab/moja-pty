@@ -1,21 +1,11 @@
 {
   "name": "moja-pty",
-  "version": "0.0.1",
-  "dependencies": "install node-pty according to processor architecture",
+  "version": "0.0.2",
+  "author": "Mountains-and-rivers",
+  "description": "install node-pty according to processor architecture",
+  "main": "main.js",
   "scripts": {
-    "postinstall": "bash scripts/postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ali-IoT-Lab/moja-pty.git"
-  },
-  "author": "Mountains-and-rivers",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ali-IoT-Lab/moja-pty/issues"
-  },
-  "homepage": "https://github.com/Ali-IoT-Lab/moja-pty#readme",
-  "description": ""
+  "license": "ISC"
 }
