@@ -1,17 +1,14 @@
 {
   "name": "moja-pty",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Mountains-and-rivers",
   "description": "install node-pty according to processor architecture",
   "main": "index.js",
   "scripts": {
+    "preinstall": "bash scripts/preinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
-  "dependencies": {
-    "node-pty": "^0.8.1",
-    "node-pty-prebuilt": "^0.7.6"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ali-IoT-Lab/moja-pty.git"
